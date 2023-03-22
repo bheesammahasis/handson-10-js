@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>DOCUMENT OBJECT MODEL</h1>
+<div class="d1">learning</div> 
+<div class="d2">prepbytes</div>
+<pre class="ques">
+<h3>question no.1= write the code to access element which is having id as "text"</h3>
+<div id="text">welcome to prepbytes</div>
+<button onclick="itsme1()">submit</button>
+</pre>
+<pre class="ques">
+<h3>question no.2= write the code to access element which is having tag as "h1"</h3>
+<h1>welcome to india</h1>
+<button onclick="itsme2()">submit</button>
+</pre>
+<pre class="ques">
+<h3>question no.3= write the code to access element which is having class as "box"</h3>
+<div class="box">welcome to kashi</div>
+<button onclick="itsme3()">submit</button>
+</pre>
+<hr>
+<div class="d1">learning</div> 
+<div class="d2">prepbytes</div>
+<pre class="ques">
+<h3>question no.4 = change the heading from "Hello" to "Hello World" using DOM functions.</h3>
+<h1 id="hh1">Hello</h1>
+<button onclick="itsme4()">submit</button>
+</pre>
+<pre class="ques">
+<h3>question no.5 = Create an HTML page having content as Hello world and a 
+    button named Replace text. When user will click on this button page content 
+    should be changed to "Welcome to Elevation academy".</h3> 
+<h1 id="hh2">Hello world</h1>
+ <button onclick="itsme5()">Replace text</button>
+ </pre>
+<pre class="ques">
+<h3>question no.6 =Add one style attribute and give text color as red and id 
+    attribute and give the id value as "heading" in the above given h1 tag using 
+    DOM functions</h3>  
+    <h1 id="heading">Hello world</h1>
+ <button onclick="itsme6()">submit</button>
+</pre>
+<hr>
+<div class="d1">learning</div> 
+<div class="d2">prepbytes</div>
+<pre class="ques">
+<h3>question no.7 =Create three cards on HTML page and arrange them using flex 
+    property in row or horizontal direction and also create button at the 
+    bottom named "Change flex direction". When user clicks on this button, the 
+    cards arrangement should be changed to vertical direction.</h3>    
+    work in progress
+ </pre>    
+ <pre class="ques">
+  <h3>question no.8 =What's the difference between window vs document? </h3> 
+     Document:-
+        It represents the document loaded inside the window or browser.
+        The properties related to it are stored in the document object.
+        It is loaded after the loading window because the window contains a 
+        document.
+        It is the root element of the document object model.
+        It is an object of the window.	
+        We can not access windows objects properties inside the document.
+        Example: document.title will return the title of the document
+        logically:
+        
+        document:{ properties}
+
+        >docoment.title
+        < 'React App'
+
+     Window:-
+            It represents the browser window in which you are seeing the 
+            content.
+            The properties related to it are stored in the window object.
+            It is loaded before the document because of the window container 
+              document.
+            The window is the global element for all objects, functions, etc.
+            It is an object of the browser.
+            We can access document object properties inside the window.
+            Example: window.document.title will return the title of the 
+              document.
+            logically:
+                window:{
+                    document:{properties}
+                }
+
+            > window.docoment.title
+            < 'React App'  
+  </pre>
+ <pre class="ques">
+ <h3>question no.9 =Write code to implement timer clock using JS --display 
+    HH:MM:SS -- The time should keep updating every second. </h3>
+    <div id="d1"></div>
+    <button onclick="itsme9()">START CLOCK</button>
+    
+ </pre>
+ <pre class="ques">
+ <h3>question no.10 =guess my number </h3>   
+  <a href="https://anwaar29.github.io/Guess_1to100/">guess my number</a>
+
+  work in progress
+ </pre>
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+    background-color:wheat;
+
+}
+.ques{
+    color:gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    color: blue;
+    font-style: italic;
+
+}
+hr{
+    border: 2px double brown;
+}
+.d1{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid orangered;
+    font-style: italic;
+    color: blue;
+    float: right;
+    margin-right: 80px;
+    animation-name: om;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes om{
+    from{
+         top: 0px;
+         rotate: 0deg;
+
+    }
+
+    to{
+        top: 295px;
+        rotate: 360deg;
+    
+    }
+}
+.d2{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid yellow;
+    font-style: italic;
+    color: blue;
+    float: right;
+    margin-right: 80px;
+    animation-name: om1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes om1{
+    from{
+         top: 0px;
+         rotate: 0deg;
+
+    }
+
+    to{
+        top: 315px;
+        rotate: 360deg;
+    
+    }
+}
