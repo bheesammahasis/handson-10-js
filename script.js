@@ -65,4 +65,5 @@ function itsme9(){
     button1.addEventListener('click', () => {
      parent.setAttribute('style','flex-direction:column');
     })
-           
+
+   

@@ -74,6 +74,7 @@ hr{
     
     }
 }
+/*answer no 7css apply */
 .p1{
     display: flex;
     flex-wrap: wrap;
@@ -85,3 +86,77 @@ hr{
      height: 80px;
      margin: 20px;
  }
+ /*answer no 10 css apply */
+ .guess0{
+    background-color:blue;
+ }
+ .guess1{
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+ }
+ .guess2{
+    font-size: 25px;
+    font-style: normal;
+    padding: 10px;
+ }
+ .guess3{
+    color: white;
+    position: absolute;
+    top: 80px;
+    right: 400px;
+ }
+ .guess4{
+    font-size: 40px;
+    padding: 40px;
+    position: absolute;
+    top: 160px;
+    right: 460px;
+
+ }
+ .guess5{
+    background-color: white;
+    border: 4px solid white;
+    position: relative;
+    top: 150px;
+    z-index: -1;
+}
+.para1a{
+    color: white;
+    position: absolute;
+    top: 300px;
+    right: 280px;
+}
+.para2a{
+    color: white;
+    position: absolute;
+    top: 330px;
+    right: 280px;
+}
+.para1{
+    color: white;
+    position: absolute;
+    top: 360px;
+    right: 280px;
+}
+.para2{
+    color: white;
+    position: absolute;
+    top: 390px;
+    right: 280px;
+}
+#gn{
+    position: absolute;
+    top: 370px;
+    left: 280px
+}
+.guess7{
+    position: absolute;
+    top: 420px;
+    left: 280px;
+    font-size: 40px;
+    padding: 10px;
+}
