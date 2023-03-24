@@ -74,3 +74,14 @@ hr{
     
     }
 }
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+ }
+ .c1{
+     background-color: skyblue;
+     width: 100px;
+     height: 80px;
+     margin: 20px;
+ }

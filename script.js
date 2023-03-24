@@ -58,5 +58,11 @@ function itsme9(){
        //itsme9();
         //}, 1000);
     }
- 
+   
+    //answer 7
+    let parent = document.querySelector('.p1');
+    let button1 = document.querySelector('.b1');
+    button1.addEventListener('click', () => {
+     parent.setAttribute('style','flex-direction:column');
+    })
            
