@@ -6,13 +6,16 @@
  let count=100;
  btn.addEventListener('click',() => {
      console.log(randomNumber);
+     console.log(para)
      if(randomNumber < parseInt(checkNumber.value)){
          para[0].innerText = "your guess is higher";
+         console.log(para[0])
          count--;
          para[2].innerText=count;
      }
      else if(randomNumber < parseInt(checkNumber.value)){
          para[0].innerText = "your guess is lower";
+         console.log(para[0])
          count--;
          para[2].innerText=count;
      }
